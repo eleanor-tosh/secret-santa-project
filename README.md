@@ -1,7 +1,7 @@
 # Secret Santa App Project - extension from Dev Academy final group project
 
 ## High level overview of things to do:
-[ ] Create wireframe
+[x] Create wireframe
 
 [ ] Remove 'only peets'
 

@@ -33,18 +33,6 @@ const Home = () => {
               onlypeets
             </Link>
           </div>
-          <div className={styles.imageWrapper}>
-            <a href='/drinks'>
-              <img
-                src='../../server/public/assets/Drunk-Santa-.png'
-                alt='Drunk Santa'
-                className={styles.image}
-              />
-            </a>
-            <Link to='/drinks' className={styles.links}>
-              drunk santa
-            </Link>
-          </div>
         </div>
       </div>
     </>
