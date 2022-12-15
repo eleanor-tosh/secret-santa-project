@@ -1,35 +1,35 @@
 # Secret Santa App Project - extension from Dev Academy final group project
 
 ## High level overview of things to do:
-[] Create wireframe
+[ ] Create wireframe
 
-[] Remove 'only peets'
+[ ] Remove 'only peets'
 
-[] Remove 'only peets' tests
+[ ] Remove 'only peets' tests
 
-[] Remove 'drunk santa'
+[ ] Remove 'drunk santa'
 
-[] Remove 'drunk santa' tests
+[ ] Remove 'drunk santa' tests
 
-[] Remove redundant code
+[ ] Remove redundant code
 
-[] Potentially refactor as TypeScript
+[ ] Potentially refactor as TypeScript
 
-[] Potentially re-write sorting algorithm to deal with uneven numbers of participants
+[ ] Potentially re-write sorting algorithm to deal with uneven numbers of participants
 
-[] Add/remove pages to match my wireframe
+[ ] Add/remove pages to match my wireframe
 
-[] Redo CSS to match wireframes
+[ ] Redo CSS to match wireframes
 
-[] Add games
+[ ] Add games
 
 ## Goals
 
 Practice React, TypeScript, CSS, Auth0, UUID, database
 
-# User Stories
+## User Stories
 
-Admin View:
+### Admin View:
 
 I want to be able to set-up a secret Santa event that has a budget, event day and draw day.
 
@@ -48,7 +48,7 @@ Stretch - I want to have a game for the event.
 Stretch - I want to see the participant scores and ranking in the game.
 
 
-Participant View:
+### Participant View:
 
 I want to participate in the secret Santa event.
 
