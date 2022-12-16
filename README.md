@@ -7,9 +7,9 @@
 
 [x] Remove 'only peets' tests
 
-[ ] Remove 'drunk santa'
+[x] Remove 'drunk santa'
 
-[ ] Remove 'drunk santa' tests
+[x] Remove 'drunk santa' tests
 
 [ ] Remove redundant code
 
