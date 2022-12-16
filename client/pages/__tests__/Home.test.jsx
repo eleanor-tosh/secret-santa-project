@@ -12,13 +12,11 @@ describe('Home component test', async () => {
     render(<Home />, { wrapper: MemoryRouter })
     expect(screen.getByText(/SECRET SANTA/i)).toBeInTheDocument()
     expect(screen.getByText(/ONLYPEETS/i)).toBeInTheDocument()
-    expect(screen.getByText(/DRUNK SANTA/i)).toBeInTheDocument()
   })
   it('has images', () => {
     render(<Home />, { wrapper: MemoryRouter })
     expect(screen.getByAltText(/secret santa/i))
     expect(screen.getByAltText(/Santa with Animals/i))
-    expect(screen.getByAltText(/Drunk Santa/i))
   })
   it('has a link to secret santa', async () => {
     render(<Home />, { wrapper: MemoryRouter })
@@ -33,12 +31,5 @@ describe('Home component test', async () => {
       name: /ONLYPEETS/i,
     })
     expect(link[0].href).toContain('peets')
-  })
-  it('has a link to drunk santa', async () => {
-    render(<Home />, { wrapper: MemoryRouter })
-    const link = await screen.findAllByRole('link', {
-      name: /DRUNK SANTA/i,
-    })
-    expect(link[0].href).toContain('drinks')
   })
 })
