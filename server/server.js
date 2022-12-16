@@ -3,11 +3,9 @@ import 'dotenv/config'
 import express from 'express'
 import path from 'path'
 
-import drinksRoute from './routes/drinks.js'
 import eventRoute from './routes/event.js'
 import guestRoute from './routes/guest.js'
 import inviteRoute from './routes/invite.js'
-import peetsRoute from './routes/peets.js'
 
 const server = express()
 
@@ -18,11 +16,9 @@ server.get('/api/hello-world', (req, res) => {
   res.json({ message: 'Hello World' })
 })
 
-server.use('/api/v1/drinks', drinksRoute)
 server.use('/api/v1/event', eventRoute)
 server.use('/api/v1/wishlist', guestRoute)
 server.use('/api/v1/invite', inviteRoute)
-server.use('/api/v1/peets', peetsRoute)
 
 server.use('/api/*', (req, res) => {
   res.sendStatus(404)
