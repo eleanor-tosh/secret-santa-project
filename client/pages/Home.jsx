@@ -21,16 +21,17 @@ const Home = () => {
               secret santa
             </Link>
           </div>
+
           <div className={styles.imageWrapper}>
-            <a href='/peets'>
+            <a href='/drinks'>
               <img
-                src='../../server/public/assets/Only-Peets-.png'
-                alt='Santa with Animals'
+                src='../../server/public/assets/Drunk-Santa-.png'
+                alt='Drunk Santa'
                 className={styles.image}
               />
             </a>
-            <Link to='/peets' className={styles.links}>
-              onlypeets
+            <Link to='/drinks' className={styles.links}>
+              drunk santa
             </Link>
           </div>
         </div>

@@ -3,9 +3,9 @@
 ## High level overview of things to do:
 [x] Create wireframe
 
-[ ] Remove 'only peets'
+[x] Remove 'only peets'
 
-[ ] Remove 'only peets' tests
+[x] Remove 'only peets' tests
 
 [ ] Remove 'drunk santa'
 
